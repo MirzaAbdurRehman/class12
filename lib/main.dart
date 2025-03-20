@@ -1,3 +1,4 @@
+import 'package:demo13/screens/home.dart';
 import 'package:demo13/screens/signup.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SignupScreen(),
+      home: HomeScreen(),
     );
   }
 }
